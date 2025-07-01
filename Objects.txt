@@ -25,3 +25,8 @@ behavior:Add to Cart,Update Quantity,Adjust Price,Ship / Deliver,Return / Replac
 #Doctor:
 states:Schedule ,Patient Load
 behavior:Schedule Appointments,,Update Patient Records
+
+#VR System:
+states:Power,Mode,user
+behavior:Power On / Off,Enter / Exit VR Mode
+
