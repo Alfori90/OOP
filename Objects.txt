@@ -67,3 +67,7 @@ behavior:Type Characters,Sleep / Wake,Connect / Disconnect
 states: Flight Phase,Altitude,Gear
 behavior:Start Engines,Take Off,Refuel
 
+#plate:
+states:Cleanliness,Occupancy,Material
+behavior:Hold Food,Be Washed / Rinsed,Be Filled / Emptied,Be Decorated
+
