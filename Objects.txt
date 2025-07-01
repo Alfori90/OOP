@@ -13,3 +13,7 @@ behavior:Cite / Reference,Turn Page,Read,
 #Student:
 states:Attendance,Academic Status
 behavior:Attend Classes,Study
+
+#Camera:
+states:Power,Mode,Focus,Flash,Zoom
+behavior:Power On / Off,Change Mode,Autofocus / Manual Focus,Enable Flash,Zoom In / Out
