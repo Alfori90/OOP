@@ -55,4 +55,7 @@ states:Cap State / Tip,Ink State,Writing,Type State
 behavior:Write,Click / Unclick,Cap / Uncap,Leak
 
 
+#mouse:
+states:Connection ,Button,Movement,Scroll Wheel
+behavior:Move Cursor,Click,Double Click,Drag and Drop,Scroll
 
