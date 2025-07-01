@@ -9,3 +9,7 @@ behavior:Power On / Off,Make / Receive Call,Send / Receive Messages,Open / Close
 #Book:
 states:Ownership,Availability,Reading Progress,Cover
 behavior:Cite / Reference,Turn Page,Read,
+
+#Student:
+states:Attendance,Academic Status
+behavior:Attend Classes,Study
