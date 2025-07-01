@@ -34,4 +34,8 @@ behavior:Power On / Off,Enter / Exit VR Mode
 states:Open/Closed,Capacity,Condition
 behavior:Open / Close,Carry,Wear,Lock / Unlock
 
+#turtuls:
+states:Movement,Shell,Location,Age
+behavior:Walk / Crawl,Swim,Eat / Feed,Bask in Sunlight
+
 
