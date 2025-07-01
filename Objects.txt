@@ -50,5 +50,9 @@ behavior:Wear / Remove,Adjust Fit,Style / Rotate
 states:Mode ,Input,Memory,Decimal / Angle Unit
 behavior:Power On / Off,Input Numbers,Switch Modes
 
+#pen:
+states:Cap State / Tip,Ink State,Writing,Type State 
+behavior:Write,Click / Unclick,Cap / Uncap,Leak
+
 
 
