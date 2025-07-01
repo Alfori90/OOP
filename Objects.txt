@@ -71,3 +71,8 @@ behavior:Start Engines,Take Off,Refuel
 states:Cleanliness,Occupancy,Material
 behavior:Hold Food,Be Washed / Rinsed,Be Filled / Emptied,Be Decorated
 
+#Mug:
+states:Content,Cleanliness,Material
+behavior:Hold Liquid,Be Filled / Emptied,Spill
+
+
