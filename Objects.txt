@@ -46,6 +46,9 @@ behavior:Turn On / Off,Change Mode,Adjust Temperature,Adjust Fan Speed
 states:Wear,Condition,Type
 behavior:Wear / Remove,Adjust Fit,Style / Rotate
 
+#calculator:
+states:Mode ,Input,Memory,Decimal / Angle Unit
+behavior:Power On / Off,Input Numbers,Switch Modes
 
 
 
