@@ -42,5 +42,10 @@ behavior:Walk / Crawl,Swim,Eat / Feed,Bask in Sunlight
 states:Power,Mode,Temperature,Fan Speed
 behavior:Turn On / Off,Change Mode,Adjust Temperature,Adjust Fan Speed
 
+#Cap:
+states:Wear,Condition,Type
+behavior:Wear / Remove,Adjust Fit,Style / Rotate
+
+
 
 
