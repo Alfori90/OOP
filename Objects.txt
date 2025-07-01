@@ -17,3 +17,7 @@ behavior:Attend Classes,Study
 #Camera:
 states:Power,Mode,Focus,Flash,Zoom
 behavior:Power On / Off,Change Mode,Autofocus / Manual Focus,Enable Flash,Zoom In / Out
+
+#product:
+states:Availability,Conditio,Visibility,Delivery,Pricing
+behavior:Add to Cart,Update Quantity,Adjust Price,Ship / Deliver,Return / Replace
