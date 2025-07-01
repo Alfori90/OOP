@@ -30,3 +30,8 @@ behavior:Schedule Appointments,,Update Patient Records
 states:Power,Mode,user
 behavior:Power On / Off,Enter / Exit VR Mode
 
+#bag:
+states:Open/Closed,Capacity,Condition
+behavior:Open / Close,Carry,Wear,Lock / Unlock
+
+
