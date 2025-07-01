@@ -38,4 +38,9 @@ behavior:Open / Close,Carry,Wear,Lock / Unlock
 states:Movement,Shell,Location,Age
 behavior:Walk / Crawl,Swim,Eat / Feed,Bask in Sunlight
 
+#Air condition:
+states:Power,Mode,Temperature,Fan Speed
+behavior:Turn On / Off,Change Mode,Adjust Temperature,Adjust Fan Speed
+
+
 
