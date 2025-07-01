@@ -21,3 +21,7 @@ behavior:Power On / Off,Change Mode,Autofocus / Manual Focus,Enable Flash,Zoom I
 #product:
 states:Availability,Conditio,Visibility,Delivery,Pricing
 behavior:Add to Cart,Update Quantity,Adjust Price,Ship / Deliver,Return / Replace
+
+#Doctor:
+states:Schedule ,Patient Load
+behavior:Schedule Appointments,,Update Patient Records
