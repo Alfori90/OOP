@@ -59,3 +59,7 @@ behavior:Write,Click / Unclick,Cap / Uncap,Leak
 states:Connection ,Button,Movement,Scroll Wheel
 behavior:Move Cursor,Click,Double Click,Drag and Drop,Scroll
 
+#keyboard:
+states:Power,Connection,Key ,Input Mode
+behavior:Type Characters,Sleep / Wake,Connect / Disconnect
+
