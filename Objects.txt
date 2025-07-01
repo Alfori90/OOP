@@ -63,3 +63,7 @@ behavior:Move Cursor,Click,Double Click,Drag and Drop,Scroll
 states:Power,Connection,Key ,Input Mode
 behavior:Type Characters,Sleep / Wake,Connect / Disconnect
 
+#plane:
+states: Flight Phase,Altitude,Gear
+behavior:Start Engines,Take Off,Refuel
+
