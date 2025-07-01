@@ -1,0 +1,82 @@
+#Cars:
+states:Engine,Gear,Speed ,Fuel,Door,Light,Battery(Electric/Hybrid),Location
+behavior:Start / Stop Engine,Accelerate,Brake,Steer,Shift Gears,Refuel / Recharge,Lock / Unlock Doors,Turn Lights On/Off,Sound Horn,Navigate
+
+#phone:
+states:Power,Network,Battery,Call,Screen,AudioApp
+behavior:Power On / Off,Make / Receive Call,Send / Receive Messages,Open / Close ,AppsLock / Unlock Screen,Charge Battery
+
+#Book:
+states:Ownership,Availability,Reading Progress,Cover
+behavior:Cite / Reference,Turn Page,Read,
+
+#Student:
+states:Attendance,Academic Status
+behavior:Attend Classes,Study
+
+#Camera:
+states:Power,Mode,Focus,Flash,Zoom
+behavior:Power On / Off,Change Mode,Autofocus / Manual Focus,Enable Flash,Zoom In / Out
+
+#product:
+states:Availability,Conditio,Visibility,Delivery,Pricing
+behavior:Add to Cart,Update Quantity,Adjust Price,Ship / Deliver,Return / Replace
+
+#Doctor:
+states:Schedule ,Patient Load
+behavior:Schedule Appointments,,Update Patient Records
+
+#VR System:
+states:Power,Mode,user
+behavior:Power On / Off,Enter / Exit VR Mode
+
+#bag:
+states:Open/Closed,Capacity,Condition
+behavior:Open / Close,Carry,Wear,Lock / Unlock
+
+#turtuls:
+states:Movement,Shell,Location,Age
+behavior:Walk / Crawl,Swim,Eat / Feed,Bask in Sunlight
+
+#Air condition:
+states:Power,Mode,Temperature,Fan Speed
+behavior:Turn On / Off,Change Mode,Adjust Temperature,Adjust Fan Speed
+
+#Cap:
+states:Wear,Condition,Type
+behavior:Wear / Remove,Adjust Fit,Style / Rotate
+
+#calculator:
+states:Mode ,Input,Memory,Decimal / Angle Unit
+behavior:Power On / Off,Input Numbers,Switch Modes
+
+#pen:
+states:Cap State / Tip,Ink State,Writing,Type State 
+behavior:Write,Click / Unclick,Cap / Uncap,Leak
+
+
+#mouse:
+states:Connection ,Button,Movement,Scroll Wheel
+behavior:Move Cursor,Click,Double Click,Drag and Drop,Scroll
+
+#keyboard:
+states:Power,Connection,Key ,Input Mode
+behavior:Type Characters,Sleep / Wake,Connect / Disconnect
+
+#plane:
+states: Flight Phase,Altitude,Gear
+behavior:Start Engines,Take Off,Refuel
+
+#plate:
+states:Cleanliness,Occupancy,Material
+behavior:Hold Food,Be Washed / Rinsed,Be Filled / Emptied,Be Decorated
+
+#Mug:
+states:Content,Cleanliness,Material
+behavior:Hold Liquid,Be Filled / Emptied,Spill
+
+#Battery:
+states:Charge Level,Power,Health ,Voltage
+behavior:Charge,Discharge,Connect / Disconnect,Heat Up / Cool Down
+
+
