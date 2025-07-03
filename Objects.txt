@@ -1,5 +1,5 @@
 #Cars:
-states:Engine,Gear,Speed ,Fuel,Door,Light,Battery(Electric/Hybrid),Location
+states:Engine,Gear,Speed ,Fuel,Light,Battery(Electric/Hybrid),Location
 behavior:Start / Stop Engine,Accelerate,Brake,Steer,Shift Gears,Refuel / Recharge,Lock / Unlock Doors,Turn Lights On/Off,Sound Horn,Navigate
 
 #phone:

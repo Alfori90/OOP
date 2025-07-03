@@ -1,0 +1,651 @@
+public class Car {
+
+     boolean engineOn;
+     int gear;
+     int speed;
+     boolean doorsLocked;
+     boolean lightsOn;
+     String batteryType; 
+     String location;
+
+public void startEngine() {
+        engineOn = true;
+        System.out.println("Engine started.");
+    }
+
+    public void stopEngine() {
+        engineOn = false;
+        speed = 0;
+        System.out.println("Engine stopped.");
+    }
+
+
+    public void brake() {
+        speed = 0;
+        System.out.println("Braking to a stop.");
+    }
+
+
+    public void lockDoors() {
+        doorsLocked = true;
+        System.out.println("Doors locked.");
+    }
+
+    public void unlockDoors() {
+        doorsLocked = false;
+        System.out.println("Doors unlocked.");
+    }
+
+    public void turnLightsOn() {
+        lightsOn = true;
+        System.out.println("Lights turned on.");
+    }
+
+    public void turnLightsOff() {
+        lightsOn = false;
+        System.out.println("Lights turned off.");
+    }
+
+}
+
+
+
+public class phone {
+
+       
+     boolean powerOn;
+     int batteryLevel;
+     boolean inCall;
+    
+
+     public void powerOn(powerOn) {
+         if (powerOn==true);
+         System.out.println("phone powered on.");    
+  }
+
+         else{
+         System.out.println("phone powered off.");    
+  }
+
+
+     public void makeCall() {
+        if (powerOn==true){
+ 	 inCall=true;	 	 		
+         System.out.println("calling"+number);
+      }    
+        else{
+        System.out.println("no calling");  
+  }
+
+
+     public void batteryLevel(int batterylevel) {
+     if (batterylevel<=15){ 
+     System.out.println("battery low"); 
+  }
+     else{
+     System.out.println("do nothing");  
+  }
+
+}
+
+
+
+public class book {
+
+                boolean availability,
+                int page;
+
+		public void turnPage (int pageNumber )
+			{
+			this.page= pageNumber;}
+
+		public void bookAvailability(Boolean AV )
+			{
+				if (AV== true){
+			      book available;}
+			
+				else   {
+			book not available;}
+  }
+
+	}
+	
+
+
+public class student {
+
+       
+     boolean attendance;
+     int studyHours;
+
+     public void AttendClasses(boolean attend ){
+			if (attend==true){
+                         student is present;
+  }
+                         else{
+                         student is absent;
+  }
+
+ }
+
+     public void studyHours(int hoursNumber ){
+	this.studyHours=hoursNumber;
+ }
+
+
+
+public class camera {
+
+       boolean powerOn;
+       boolean mood;
+       int zoom;
+
+     public void powerOn(boolean powerOn) {
+     if(powerOn==true){
+     camera powered on;
+  }
+     else{
+        camera powered off;
+  }
+
+}
+
+    public void changinMood(boolean moodChange){
+       if (moodChange==true){
+       camera is turned on;
+
+  }
+       else{
+       camera is turned off;
+  }
+ }
+    
+        
+   public void zoomIn(int zoomLevel){
+      if(zoomLevel>=50){
+         zoom in;
+  }
+      else{
+         zoom out;
+  }
+ }
+
+
+
+
+public class product{
+     
+     boolean availability;
+     boolean deliveryStatus;
+     double pricing;
+   
+   public void addToCart(boolean productAvailable){
+    if(productAvailable==true){
+     product add to cart;
+  }
+    else{
+      product hidden;
+  }
+ }
+    
+   public void shipProduct(boolean productShipped){
+     if(productShipped==true){
+        product delivered;
+  }
+     else{
+        product undelivered;
+  }
+}
+
+
+public void setPrice(double newPrice){
+           this.price= newPrice;
+ }
+
+
+
+public class Doctor{
+
+     string schedule;
+     int patientLoad;
+
+   public void scheduleAppointment(String appointmentDetails){
+       this.schedule= appointmentDetails;
+  }
+
+    public void updatePatientRecord(int patientLoad)
+ {
+	if(patientLoad>100) {
+        System.out.println("no pation accept");
+  }  
+        else{
+         System.out.println("pation accept"); 
+  }
+
+ }
+
+
+
+
+
+public class VR {
+    int currentCharge;
+    String currentScope;
+    boolean isOn;
+   
+
+    public void watching(boolean isOn, String currentScope)
+    {
+        if(isOn)
+        {
+            this.currentScope=currentScope;
+        }
+        else
+        {
+            this.isOn=false;
+        }
+    }
+
+
+    public void changeVideos()
+    {
+        if(isOn)
+        {
+            System.out.println("You can Change video");
+        }
+        else
+        {
+            System.out.println("You can't Change video");
+        }
+    }
+
+ }
+
+
+
+public class bag{
+
+      boolean bagStatus;
+      int capacity;
+      string condition;
+    
+      public void bagStatus(boolean isOpen){
+                if(isOpen==true){bag is open;
+  }
+                else{
+               bag is closed;
+  }            
+ }
+
+      public void carry(int weight){
+           this.capacity=Weight;
+  }
+
+      public void wear( ){
+      System.out.println("You are wearing the bag");
+  }
+
+ }
+
+
+
+public class Turtle{
+
+		int  age;
+                int Speed; 
+
+		public void Swimming (int turtleSpeed)
+			{
+			int newAge;
+			this.turtleAge= newAge;
+			this.Speed=turtleSpeed;}
+         }
+
+
+
+
+
+public class AirCondition{
+
+             boolean powerOn;
+             boolean mood;
+             int temperature;
+
+     public void powerOn(boolean powerOn) {
+     if(powerOn==true){
+     AirCondition powered on;
+  }
+     else{
+     AirCondition powered off;
+  }
+
+ }
+
+     public void changinMood(boolean moodChange){
+       if (moodChange==true){
+       AirCondition is turned on;
+
+  }
+
+
+
+       else{
+       AirCondition is turned off;
+  }
+ }
+
+            
+    public void increaseTemperature(int temperature){
+       if (temperature==25){  
+       System.out.println("Temperature increased to " + temperature + "°C");
+  }
+      else{
+         System.out.println("Cannot increase temperature");
+  }
+ }
+
+
+ }
+
+
+
+
+public class Cap{
+
+
+        boolean isWorn;
+        string condition;        
+        string type;
+
+    public void wear(boolean isWorn){
+       if (isWorn==true){ 
+         
+      System.out.println("You are now wearing the " + type + " cap");
+    } 
+      else {
+            
+     System.out.println("You are already wearing the cap");
+        }
+ }
+
+    public void remove(isWorn){
+     
+       if (isWorn==false){
+       System.out.println("You removed the cap");  
+  }
+      else{
+      System.out.println("You are not wearing the cap"); 
+  }
+ }
+
+   public void adjustFit(){
+
+           if (isWorn) {
+           System.out.println("You adjusted the fit of your cap");
+   }
+           else{
+          System.out.println("You need to wear the cap to rotate it");
+   }          
+
+  }
+
+ }
+
+
+
+
+public class calculator{
+
+          boolean mood;
+          boolean unite;      
+
+      public void changinMood(boolean moodChange){
+       if (moodChange==true){
+       calculator is turned on;
+
+  }
+       else{
+       calculator is turned off;
+  }
+ }
+
+     public void switchUnit(boolean moodChange){
+        
+       if (moodChange==true){
+       System.out.println("Unit switched to: " + unit);
+   }  
+       else{
+       System.out.println("Cannot switch unit Calculator is OFF");
+   }       
+  }
+
+}
+
+
+
+
+public class Pen  {
+         String inkcolour;
+         boolean ink;
+
+         public void Write( ){
+	   if (ink == true){
+	   pen able to be used ;
+	   System.out.println(" the ink colour is :  "+ inkcolour);
+       }
+	   else {
+	   throw the pen; 
+       }
+		
+   }
+
+
+
+
+public class Mouse {
+     boolean isConnected;
+     String type;
+
+     public void  setConnection(boolean status){
+         if (isConnected==true){
+            System.out.println("Mouse is connected");
+        }
+        else{
+            System.out.println("Mouse is not connected");
+        }
+    }
+
+     public void usesofMouse(String type){
+        if(type==Gamming){
+            System.out.println("You can click, move and scroll");
+        }
+        else {
+            System.out.println("You can click and move");
+        }
+    }
+
+}
+
+
+
+
+public class Keyboard {
+
+    boolean isPowerOn;
+    String inputMood;
+
+     public void powerOn(boolean isPowerOn) {
+     if(isPowerOn==true){
+     Keyboard powered on;
+  }
+     else{
+     Keyboard powered off;
+  }
+
+ }
+
+     public void wake(boolean isPowerOn){
+       if (isPowerOn==true){
+       System.out.println("Keyboard is now in wake mood");
+  } 
+       else {
+            System.out.println("Keyboard is disconnected.");
+        }
+  }
+
+    public void sleep(boolean isPowerOn){
+       if (isPowerOn==false){
+       System.out.println("Keyboard is now in sleep mood");
+  } 
+       else {
+            System.out.println("Keyboard is already disconnected");
+        }
+  }
+    
+}
+
+
+
+
+public class Plane{
+       String flightPhase;
+       boolean enginesOn;
+       int altitude;
+       int fuelLevel ;
+
+       public void startEngines(boolean enginesOn) {
+        if (enginesOn) {
+            enginesOn = true;
+            flightPhase = "Taxiing";
+            System.out.println("Engines started plane is now taxiing.");
+        } 
+            else {
+            System.out.println("Engines are already running.");
+        }
+    }
+
+
+       public void changingAltitude (int newAltitude){
+
+			    this.Altitude= newAltitude;
+     }
+	
+	
+       public void refuel (int newFuelLevel){
+
+			    this.fuelLevel= newFuelLevel;
+    }
+  }
+
+
+
+
+public class Plate {
+    String meterialType;
+    boolean occupied;
+    String cleanliness;
+
+     public void holdingFood(boolean cleanliness){
+        if(cleanliness){
+
+            System.out.println("You can hold food on plate");
+        }
+      
+        else{
+            System.out.println("Plate is not empty");
+        }
+
+    }
+
+     public void empty() {
+        if (occupied == true) {
+            System.out.println("The plate is full");
+        } 
+            else {
+            System.out.println("The plate has been emptied");
+        }
+    }
+  
+ 
+     public void breaking(String MeterialType){
+
+        this.meterialType = MeterialType;
+        if(MeterialType == Glass){
+            System.out.println("Take care when you take the plate beacuse it may be break");
+        }
+        else {
+            System.out.println("Plate will not break");
+        }
+    }
+}
+
+
+
+
+public class mug{
+    
+        string content; 
+        String cleanliness;
+        String material;
+  
+       public void holdLiquid(string liquid){
+             thid.content = liquid;
+     }
+       
+
+       public void holdingLiquid(boolean cleanliness){
+        if(cleanliness = true){
+
+            System.out.println("You can hold liquid on the mug");
+        }
+      
+        else{
+            System.out.println("mug is dirty");
+        }
+
+    }
+
+
+       public void breaking(String MeterialType){
+          this.meterialType = MeterialType;
+            if(MeterialType == Glass){
+            System.out.println("Take care when you take the mug beacuse it may be break");
+        }
+        else {
+            System.out.println("mug will not break");
+        }
+   }
+
+ }
+
+
+
+
+public class battery{
+
+      int chargeLevel;
+      boolean powerOn;
+
+      public void chargeLevel(int chargelevel) {
+     if (chargelevel<=20){ 
+     System.out.println("charge the battery"); 
+  }
+     else{
+     System.out.println("do nothing");  
+  }
+
+ }
+
+     public void powerOn(boolean PowerOn){
+       if (PowerOn == true){
+       System.out.println("battery connected and powered on");
+  } 
+       else {
+            System.out.println("battery disconnected and powered off");
+        }
+  }
+
+       
+ }
+
+
