@@ -346,3 +346,50 @@ public class AirCondition{
 
 
  }
+
+
+
+
+public class Cap{
+
+
+        boolean isWorn;
+        string condition;        
+        string type;
+
+    public void wear(boolean isWorn){
+       if (isWorn==true){ 
+         
+      System.out.println("You are now wearing the " + type + " cap");
+    } 
+      else {
+            
+     System.out.println("You are already wearing the cap");
+        }
+ }
+
+    public void remove(isWorn){
+     
+       if (isWorn==false){
+       System.out.println("You removed the cap");  
+  }
+      else{
+      System.out.println("You are not wearing the cap"); 
+  }
+ }
+
+   public void adjustFit(){
+
+           if (isWorn) {
+           System.out.println("You adjusted the fit of your cap");
+   }
+           else{
+          System.out.println("You need to wear the cap to rotate it");
+   }          
+
+  }
+
+ }
+
+
+
