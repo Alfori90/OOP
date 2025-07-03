@@ -393,3 +393,31 @@ public class Cap{
 
 
 
+
+public class calculator{
+
+          boolean mood;
+          boolean unite;      
+
+      public void changinMood(boolean moodChange){
+       if (moodChange==true){
+       calculator is turned on;
+
+  }
+       else{
+       calculator is turned off;
+  }
+ }
+
+     public void switchUnit(boolean moodChange){
+        
+       if (moodChange==true){
+       System.out.println("Unit switched to: " + unit);
+   }  
+       else{
+       System.out.println("Cannot switch unit Calculator is OFF");
+   }       
+  }
+
+
+
