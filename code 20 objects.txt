@@ -304,3 +304,45 @@ public class Turtle{
 
 
 
+
+public class AirCondition{
+
+             boolean powerOn;
+             boolean mood;
+             int temperature;
+
+     public void powerOn(boolean powerOn) {
+     if(powerOn==true){
+     AirCondition powered on;
+  }
+     else{
+     AirCondition powered off;
+  }
+
+ }
+
+     public void changinMood(boolean moodChange){
+       if (moodChange==true){
+       AirCondition is turned on;
+
+  }
+
+
+
+       else{
+       AirCondition is turned off;
+  }
+ }
+
+            
+    public void increaseTemperature(int temperature){
+       if (temperature==25){  
+       System.out.println("Temperature increased to " + temperature + "°C");
+  }
+      else{
+         System.out.println("Cannot increase temperature");
+  }
+ }
+
+
+ }
