@@ -421,3 +421,23 @@ public class calculator{
 
 }
 
+
+
+
+public class Pen  {
+         String inkcolour;
+         boolean ink;
+
+         public void Write( ){
+	   if (ink == true){
+	   pen able to be used ;
+	   System.out.println(" the ink colour is :  "+ inkcolour);
+       }
+	   else {
+	   throw the pen; 
+       }
+		
+   }
+
+
+
