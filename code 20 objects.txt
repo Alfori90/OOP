@@ -262,3 +262,29 @@ public class VR {
  }
 
 
+
+public class bag{
+
+      boolean bagStatus;
+      int capacity;
+      string condition;
+    
+      public void bagStatus(boolean isOpen){
+                if(isOpen==true){bag is open;
+  }
+                else{
+               bag is closed;
+  }            
+ }
+
+      public void carry(int weight){
+           this.capacity=Weight;
+  }
+
+      public void wear( ){
+      System.out.println("You are wearing the bag");
+  }
+
+ }
+
+
