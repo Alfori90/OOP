@@ -203,3 +203,25 @@ public void setPrice(double newPrice){
  }
 
 
+
+public class Doctor{
+
+     string schedule;
+     int patientLoad;
+
+   public void scheduleAppointment(String appointmentDetails){
+       this.schedule= appointmentDetails;
+  }
+
+    public void updatePatientRecord(int patientLoad)
+ {
+	if(patientLoad>100) {
+        System.out.println("no pation accept");
+  }  
+        else{
+         System.out.println("pation accept"); 
+  }
+
+ }
+
+
