@@ -579,3 +579,41 @@ public class Plate {
     }
 }
 
+
+
+
+public class mug{
+    
+        string content; 
+        String cleanliness;
+        String material;
+  
+       public void holdLiquid(string liquid){
+             thid.content = liquid;
+     }
+       
+
+       public void holdingLiquid(boolean cleanliness){
+        if(cleanliness = true){
+
+            System.out.println("You can hold liquid on the mug");
+        }
+      
+        else{
+            System.out.println("mug is dirty");
+        }
+
+    }
+
+
+       public void breaking(String MeterialType){
+          this.meterialType = MeterialType;
+            if(MeterialType == Glass){
+            System.out.println("Take care when you take the mug beacuse it may be break");
+        }
+        else {
+            System.out.println("mug will not break");
+        }
+   }
+
+ }
