@@ -1,0 +1,49 @@
+public class Car {
+
+     boolean engineOn;
+     int gear;
+     int speed;
+     boolean doorsLocked;
+     boolean lightsOn;
+     String batteryType; 
+     String location;
+
+public void startEngine() {
+        engineOn = true;
+        System.out.println("Engine started.");
+    }
+
+    public void stopEngine() {
+        engineOn = false;
+        speed = 0;
+        System.out.println("Engine stopped.");
+    }
+
+
+    public void brake() {
+        speed = 0;
+        System.out.println("Braking to a stop.");
+    }
+
+
+    public void lockDoors() {
+        doorsLocked = true;
+        System.out.println("Doors locked.");
+    }
+
+    public void unlockDoors() {
+        doorsLocked = false;
+        System.out.println("Doors unlocked.");
+    }
+
+    public void turnLightsOn() {
+        lightsOn = true;
+        System.out.println("Lights turned on.");
+    }
+
+    public void turnLightsOff() {
+        lightsOn = false;
+        System.out.println("Lights turned off.");
+    }
+
+}
