@@ -88,3 +88,26 @@ public class phone {
 
 }
 
+
+
+public class book {
+
+                boolean availability,
+                int page;
+
+		public void turnPage (int pageNumber )
+			{
+			this.page= pageNumber;}
+
+		public void bookAvailability(Boolean AV )
+			{
+				if (AV== true){
+			      book available;}
+			
+				else   {
+			book not available;}
+  }
+
+	}
+	
+
