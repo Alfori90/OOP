@@ -506,3 +506,35 @@ public class Keyboard {
 
 
 
+
+public class Plane{
+       String flightPhase;
+       boolean enginesOn;
+       int altitude;
+       int fuelLevel ;
+
+       public void startEngines(boolean enginesOn) {
+        if (enginesOn) {
+            enginesOn = true;
+            flightPhase = "Taxiing";
+            System.out.println("Engines started plane is now taxiing.");
+        } 
+            else {
+            System.out.println("Engines are already running.");
+        }
+    }
+
+
+       public void changingAltitude (int newAltitude){
+
+			    this.Altitude= newAltitude;
+     }
+	
+	
+       public void refuel (int newFuelLevel){
+
+			    this.fuelLevel= newFuelLevel;
+    }
+  }
+
+
