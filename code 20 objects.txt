@@ -617,3 +617,35 @@ public class mug{
    }
 
  }
+
+
+
+
+public class battery{
+
+      int chargeLevel;
+      boolean powerOn;
+
+      public void chargeLevel(int chargelevel) {
+     if (chargelevel<=20){ 
+     System.out.println("charge the battery"); 
+  }
+     else{
+     System.out.println("do nothing");  
+  }
+
+ }
+
+     public void powerOn(boolean PowerOn){
+       if (PowerOn == true){
+       System.out.println("battery connected and powered on");
+  } 
+       else {
+            System.out.println("battery disconnected and powered off");
+        }
+  }
+
+       
+ }
+
+
