@@ -171,3 +171,35 @@ public class camera {
  }
 
 
+
+
+public class product{
+     
+     boolean availability;
+     boolean deliveryStatus;
+     double pricing;
+   
+   public void addToCart(boolean productAvailable){
+    if(productAvailable==true){
+     product add to cart;
+  }
+    else{
+      product hidden;
+  }
+ }
+    
+   public void shipProduct(boolean productShipped){
+     if(productShipped==true){
+        product delivered;
+  }
+     else{
+        product undelivered;
+  }
+}
+
+
+public void setPrice(double newPrice){
+           this.price= newPrice;
+ }
+
+
