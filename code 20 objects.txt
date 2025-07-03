@@ -111,3 +111,25 @@ public class book {
 	}
 	
 
+
+public class student {
+
+       
+     boolean attendance;
+     int studyHours;
+
+     public void AttendClasses(boolean attend ){
+			if (attend==true){
+                         student is present;
+  }
+                         else{
+                         student is absent;
+  }
+
+ }
+
+     public void studyHours(int hoursNumber ){
+	this.studyHours=hoursNumber;
+ }
+
+
