@@ -467,3 +467,42 @@ public class Mouse {
 }
 
 
+
+
+public class Keyboard {
+
+    boolean isPowerOn;
+    String inputMood;
+
+     public void powerOn(boolean isPowerOn) {
+     if(isPowerOn==true){
+     Keyboard powered on;
+  }
+     else{
+     Keyboard powered off;
+  }
+
+ }
+
+     public void wake(boolean isPowerOn){
+       if (isPowerOn==true){
+       System.out.println("Keyboard is now in wake mood");
+  } 
+       else {
+            System.out.println("Keyboard is disconnected.");
+        }
+  }
+
+    public void sleep(boolean isPowerOn){
+       if (isPowerOn==false){
+       System.out.println("Keyboard is now in sleep mood");
+  } 
+       else {
+            System.out.println("Keyboard is already disconnected");
+        }
+  }
+    
+}
+
+
+
