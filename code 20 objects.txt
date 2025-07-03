@@ -441,3 +441,29 @@ public class Pen  {
 
 
 
+
+public class Mouse {
+     boolean isConnected;
+     String type;
+
+     public void  setConnection(boolean status){
+         if (isConnected==true){
+            System.out.println("Mouse is connected");
+        }
+        else{
+            System.out.println("Mouse is not connected");
+        }
+    }
+
+     public void usesofMouse(String type){
+        if(type==Gamming){
+            System.out.println("You can click, move and scroll");
+        }
+        else {
+            System.out.println("You can click and move");
+        }
+    }
+
+}
+
+
