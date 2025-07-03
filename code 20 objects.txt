@@ -538,3 +538,44 @@ public class Plane{
   }
 
 
+
+
+public class Plate {
+    String meterialType;
+    boolean occupied;
+    String cleanliness;
+
+     public void holdingFood(boolean cleanliness){
+        if(cleanliness){
+
+            System.out.println("You can hold food on plate");
+        }
+      
+        else{
+            System.out.println("Plate is not empty");
+        }
+
+    }
+
+     public void empty() {
+        if (occupied == true) {
+            System.out.println("The plate is full");
+        } 
+            else {
+            System.out.println("The plate has been emptied");
+        }
+    }
+  
+ 
+     public void breaking(String MeterialType){
+
+        this.meterialType = MeterialType;
+        if(MeterialType == Glass){
+            System.out.println("Take care when you take the plate beacuse it may be break");
+        }
+        else {
+            System.out.println("Plate will not break");
+        }
+    }
+}
+
